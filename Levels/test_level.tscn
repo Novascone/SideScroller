@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://b8oguav5bhv1h"]
+[gd_scene load_steps=6 format=3 uid="uid://b8oguav5bhv1h"]
 
 [ext_resource type="Texture2D" uid="uid://b51kbbgp74eo" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_duffd"]
 [ext_resource type="PackedScene" uid="uid://b0bvkt2ywm36u" path="res://Character/player.tscn" id="2_sfj47"]
@@ -1422,6 +1422,8 @@ texture = ExtResource("1_duffd")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_eumf0")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_srg46"]
+
 [node name="TestLevel" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -1443,3 +1445,9 @@ process_callback = 0
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(79, 87)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_srg46")
