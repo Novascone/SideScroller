@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv1b08s8yuxwd"
-path="res://.godot/imported/blank-idle-sheet.png-603e5fe64b8e9de997fe62c611d925a2.ctex"
+uid="uid://tbcpn6qpnaax"
+path="res://.godot/imported/Run-Sheet-Custom.png-ca55d19e816edb0a750ab03fecd3c733.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/my_art/idle/blank-idle-sheet.png"
-dest_files=["res://.godot/imported/blank-idle-sheet.png-603e5fe64b8e9de997fe62c611d925a2.ctex"]
+source_file="res://Art/my_art/running /Run-Sheet-Custom.png"
+dest_files=["res://.godot/imported/Run-Sheet-Custom.png-ca55d19e816edb0a750ab03fecd3c733.ctex"]
 
 [params]
 
