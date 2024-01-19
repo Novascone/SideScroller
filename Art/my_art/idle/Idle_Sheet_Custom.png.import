@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uy4ie688p1sj"
-path="res://.godot/imported/Idle-Sheet-Custom.png-6076834818ca4938522450599c8f9065.ctex"
+path="res://.godot/imported/Idle_Sheet_Custom.png-7f1a7243c0c23afead7a314c48562b9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/my_art/idle/Idle-Sheet-Custom.png"
-dest_files=["res://.godot/imported/Idle-Sheet-Custom.png-6076834818ca4938522450599c8f9065.ctex"]
+source_file="res://Art/my_art/idle/Idle_Sheet_Custom.png"
+dest_files=["res://.godot/imported/Idle_Sheet_Custom.png-7f1a7243c0c23afead7a314c48562b9e.ctex"]
 
 [params]
 
